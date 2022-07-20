@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #0e196d80;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: teal;
+}
+hr{
+    border: 2px solid black;
+    width: 100%;
+    margin: 20px auto;
+    margin-bottom: none;
+}
+.common_hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+/*******************START HEARDER SECTION**************** */
+.container{
+    max-width: 1000px;
+    background: #c2cace;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+.profile_img{
+    width: 120px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.heading_bio{
+    float: left;
+    padding: 30px;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div_clayer{
+    clear: both;
+}
+/*******************END HEARDER SECTION**************** */
+/*******************START LEFT & RIGHT DIV SECTION**************** */
+
+.let_div{
+    width: 30%;
+    float: left;
+}
+.right_div{
+    width: 70%;
+    float: left;
+}
+/*******************END LEFT & RIGHT DIV SECTION**************** */
+/*******************START EDUCATION LEFT & RIGHT DIV SECTION**************** */
+.education_left{
+    float: left;
+    width: 50%;
+}
+.education_right{
+    float: right;
+    width: 45%;
+}
+/*******************END EDUCATION LEFT & RIGHT DIV SECTION**************** */
+/*******************START FOOTER SECTION**************** */
+#footer{
+    background: black;
+    text-align: center;
+    padding: 10px;
+}
+#footer p{
+    color: white;
+    font-weight: 600; 
+    margin-top: 20px;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+#footer a:hover{
+    text-decoration: underline;
+    color: tomato;
+    cursor: progress;
+}
+/*******************END FOOTER SECTION**************** */
